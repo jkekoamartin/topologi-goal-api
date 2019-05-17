@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Pet Clinic Index</title>
+</head>
+<body>
+
+
+<tr th:each="stone : ${stones}">
+    <td th:text="${stone.name}">1</td>
+    <td th:text="${stone.desc}">Joe</td>
+</tr>
+
+
+
+</body>
+</html>
