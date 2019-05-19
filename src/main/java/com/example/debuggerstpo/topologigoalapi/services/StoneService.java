@@ -1,5 +1,6 @@
-package com.example.debuggerstpo.topologigoalapi.controllers;
+package com.example.debuggerstpo.topologigoalapi.services;
 
+import com.example.debuggerstpo.topologigoalapi.repositories.StoneRepository;
 import com.example.debuggerstpo.topologigoalapi.models.Stone;
 import org.springframework.stereotype.Service;
 

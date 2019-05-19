@@ -6,5 +6,13 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 @Component
-public interface TGGraphService {
+public class TGGraphService {
+
+
+//    TODO: need to build graph from DB? How should we go about it?
+
+    public TGGraph<Stone> getGraphByName(String graphName) {
+
+        return null;
+    }
 }

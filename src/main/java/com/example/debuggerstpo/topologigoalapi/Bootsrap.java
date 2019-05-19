@@ -1,11 +1,9 @@
 package com.example.debuggerstpo.topologigoalapi;
 
-import com.example.debuggerstpo.topologigoalapi.controllers.StoneRepository;
+import com.example.debuggerstpo.topologigoalapi.repositories.StoneRepository;
 import com.example.debuggerstpo.topologigoalapi.models.SteppingStone;
 import com.example.debuggerstpo.topologigoalapi.models.Stone;
 import org.springframework.stereotype.Component;
-
-import javax.persistence.Column;
 
 @Component
 public class Bootsrap {

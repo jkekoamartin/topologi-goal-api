@@ -1,4 +1,4 @@
-package com.example.debuggerstpo.topologigoalapi.controllers;
+package com.example.debuggerstpo.topologigoalapi.repositories;
 
 
 import com.example.debuggerstpo.topologigoalapi.models.Stone;
